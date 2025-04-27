@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Právě Začínám</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .highlight {
+            color: #ffcc00;
+        }
+
+        .bullet {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .bullet::before {
+            content: "•";
+            color: #ffcc00;
+            font-size: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #ffcc00;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hashtag {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+
+        footer {
+            margin-top: 4rem;
+            text-align: center;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #777;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>#PrávěZačínám</h1>
+        
+        <div class="section">
+            <p>Mám projekty, které mi leží na srdci už příliš dlouho – a odkládal jsem je, protože „ještě nejsou dost dobré“.</p>
+            <p>A právě proto si připomínám že <span class="hashtag">#PrávěZačínám</span>.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="highlight">Začínám</h2>
+            
+            <div class="bullet">
+                <p>Protože chci. Ne proto, že si slibuju skvělý výsledek.</p>
+            </div>
+            
+            <div class="bullet">
+                <p>Abych se učil. Ne proto, že si slibuju skvělý výsledek.</p>
+            </div>
+            
+            <div class="bullet">
+                <p>Abych jednou nelitoval, že jsem to ani nezkusil. Ne proto, že si slibuju skvělý výsledek.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="highlight">A co Ty?</h2>
+            <p>Držíš v šuplíku něco, co svět neviděl, jen proto, že to (zatím) není perfektní?</p>
+            <p>Jestli potřebuješ povolení dát do světa něco, co není perfketní, tady ho máš: <span class="hashtag">#PrávěZačínám</span>.</p>
+            <p>Není důležité, jak nedokonalé to teď je. Není důležité, jestli to někam povede. Důležité je, jestli budeš spát klidně, protože jsi zkoušel/a věci nebo litovat, že ne.</p>
+        </div>
+    </div>
+    <footer>
+        © 2025 Richard Veselý | <a href="https://richardvesely.cz">richardvesely.cz</a>
+    </footer>
+</body>
+</html> 
